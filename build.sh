@@ -34,6 +34,8 @@ popd
 popd
 
 pushd deluge
+git tag -d deluge-2.0.0
+git tag deluge-2.0.0
 pip install .
 popd
 
